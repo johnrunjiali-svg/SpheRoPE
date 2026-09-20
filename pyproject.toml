@@ -1,0 +1,16 @@
+[project]
+name = "my-fork-spherope"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "accelerate>=0.30.0",
+    "diffusers>=0.37.1",
+    "numpy>=2.5.3",
+    "pillow>=12.3.0",
+    "protobuf>=7.36.2",
+    "safetensors>=0.4.0",
+    "sentencepiece>=0.2.2",
+    "torch>=2.1.0",
+    "torchvision>=0.16.0",
+    "transformers>=4.45.0,<5.0",
+]
